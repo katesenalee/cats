@@ -13,6 +13,7 @@
 		A64FBE962713F00500C978DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A64FBE952713F00500C978DF /* Preview Assets.xcassets */; };
 		A64FBE9D2713F40000C978DF /* CatFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64FBE9C2713F40000C978DF /* CatFactView.swift */; };
 		A64FBE9F2713F42A00C978DF /* CatPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64FBE9E2713F42A00C978DF /* CatPhotoView.swift */; };
+		A64FBEA12713F57B00C978DF /* CatFactManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64FBEA02713F57B00C978DF /* CatFactManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		A64FBE952713F00500C978DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A64FBE9C2713F40000C978DF /* CatFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactView.swift; sourceTree = "<group>"; };
 		A64FBE9E2713F42A00C978DF /* CatPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatPhotoView.swift; sourceTree = "<group>"; };
+		A64FBEA02713F57B00C978DF /* CatFactManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,7 @@
 		A64FBE822713F00100C978DF = {
 			isa = PBXGroup;
 			children = (
+				A64FBEA02713F57B00C978DF /* CatFactManager.swift */,
 				A64FBE9E2713F42A00C978DF /* CatPhotoView.swift */,
 				A64FBE9C2713F40000C978DF /* CatFactView.swift */,
 				A64FBE8D2713F00100C978DF /* cats */,
@@ -145,6 +148,7 @@
 			files = (
 				A64FBE912713F00100C978DF /* ContentView.swift in Sources */,
 				A64FBE9D2713F40000C978DF /* CatFactView.swift in Sources */,
+				A64FBEA12713F57B00C978DF /* CatFactManager.swift in Sources */,
 				A64FBE9F2713F42A00C978DF /* CatPhotoView.swift in Sources */,
 				A64FBE8F2713F00100C978DF /* catsApp.swift in Sources */,
 			);

@@ -9,7 +9,11 @@ import SwiftUI
 
 struct CatFactView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Cat fact view")
+            .onAppear {
+                let catFactManager = CatFactManager()
+                catFactManager.getCatFact()
+            }
     }
 }
 
