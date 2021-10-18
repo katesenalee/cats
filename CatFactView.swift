@@ -12,6 +12,7 @@ struct CatFactView: View {
     
     var body: some View {
         VStack{
+            Spacer()
             if let catFact = catFactManager.catFact {
                 Text(catFact.fact)
                     .padding()
@@ -19,6 +20,10 @@ struct CatFactView: View {
             } else {
                 ProgressView()
             }
+            Spacer()
+            Rectangle()
+                .foregroundColor(.init(uiColor: UIColor(red: 230/255, green: 230/255, blue: 230/255, alpha: 1)))
+                .frame(height: 10)
         }
         .onAppear {
             catFactManager.getCatFact()
