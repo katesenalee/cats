@@ -19,7 +19,9 @@ struct ContentView: View {
                     Label("photos", systemImage: "photo")
                 }
         }
-        
+        .onAppear {
+            UITabBar.appearance().backgroundColor = UIColor(red: 230/255, green: 230/255, blue: 230/255, alpha: 1)
+        }
     }
 }
 
